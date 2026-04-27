@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>T.GORDON AND PARTNERS CONSTRUCTORS</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  color: #222;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #111, #333);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  color: #ccc;
+  margin-top: 10px;
+}
+
+/* WHATSAPP BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 18px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* LIST */
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  color: white;
+  margin-top: 30px;
+}
+
+/* ANIMATION */
+section {
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>T.GORDON AND PARTNERS CONSTRUCTORS</h1>
+  <p>Building Strong Foundations for the Future</p>
+
+  <!-- CHANGE NUMBER HERE -->
+  <a class="btn" href="https://wa.me/27YOURNUMBER" target="_blank">
+    💬 WhatsApp Us
+  </a>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>
+    We are a trusted construction company based in Johannesburg, delivering quality building services,
+    renovations, paving, roofing, and general maintenance.
+  </p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <ul>
+    <li>Building Construction</li>
+    <li>Home Renovations</li>
+    <li>Paving & Driveways</li>
+    <li>Roofing</li>
+    <li>General Maintenance</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Our Work</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+    <img src="https://images.unsplash.com/photo-1590644365607-1e7b1b2c1c2b">
+    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12">
+  </div>
+</section>
+
+<section>
+  <h2>Contact & Booking</h2>
+
+  <p><strong>Address:</strong> 1328 Algeria St, Cosmo City, Johannesburg, 1267</p>
+
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <textarea placeholder="Describe what you need..." required></textarea>
+    <button type="submit">Send Request</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 T.GORDON AND PARTNERS CONSTRUCTORS</p>
+</footer>
+
+</body>
+  </html>
